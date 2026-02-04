@@ -5,6 +5,7 @@ import HomePage from '../pages/Home/HomePage'
 import AboutPage from '../pages/About/AboutPage'
 import ProductsPage from '../pages/Products/ProductsPage'
 import AccessoriesPage from '../pages/Accessories/AccessoriesPage'
+import NewArrivalsPage from '../pages/NewArrivals/NewArrivalsPage'
 import DealsPage from '../pages/Deals/DealsPage'
 import BrandsPage from '../pages/Brands/BrandsPage'
 import SupportPage from '../pages/Support/SupportPage'
@@ -29,6 +30,10 @@ const my_router = createBrowserRouter([
       {
         path: '/accessories',
         element: <AccessoriesPage />
+      },
+      {
+        path: '/new_arrivals',
+        element: <NewArrivalsPage />
       },
       {
         path: '/deals',
